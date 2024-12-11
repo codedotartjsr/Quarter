@@ -9,7 +9,7 @@ const MenuList = ({ addListing }) => {
         </Link>
         {/* <ul className="sub-menu menu-pages-img-show">
           <li>
-            <Link href="/">Home Style 01</Link>
+            <Link href="/home/page-three">Home Style 01</Link>
             <img src="/img/home-demos/home-1.jpg" alt="#" />
           </li>
           <li>
@@ -94,16 +94,16 @@ const MenuList = ({ addListing }) => {
             <Link href="/shop">Property</Link>
           </li>
           <li>
-            <Link href="/shop/grid">Property Grid</Link>
+            <Link href="/shop">Property Grid</Link>
           </li>
           <li>
-            <Link href="/shop/list">Property List</Link>
+            <Link href="/shop">Property List</Link>
           </li>
           <li>
-            <Link href="/shop/left-sidebar">Property Left sidebar</Link>
+            <Link href="/shop">Property Left sidebar</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Property right sidebar</Link>
+            <Link href="/shop">Property right sidebar</Link>
           </li>
 
           <li>

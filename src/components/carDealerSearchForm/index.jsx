@@ -88,7 +88,7 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <div className="btn-wrapper text-center mt-0">
                                 <Link
-                                  href="/shop/right-sidebar"
+                                  href="/shop"
                                   className="btn theme-btn-1 btn-effect-1 text-uppercase"
                                 >
                                   Search
@@ -157,7 +157,7 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <div className="btn-wrapper text-center mt-0">
                                 <Link
-                                  href="/shop/right-sidebar"
+                                  href="/shop"
                                   className="btn theme-btn-1 btn-effect-1 text-uppercase"
                                 >
                                   Search

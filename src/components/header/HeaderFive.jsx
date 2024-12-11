@@ -98,7 +98,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
               <Col>
                 <div className="site-logo-wrap">
                   <div className="site-logo">
-                    <Link href="/">
+                    <Link href="/home/page-three">
                       <img src="/img/logo.png" alt="Logo" />
                     </Link>
                   </div>
@@ -282,7 +282,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
               <Col className="header-menu-column justify-content-center">
                 <div className="sticky-logo">
                   <div className="site-logo">
-                    <Link href="/">
+                    <Link href="/home/page-three">
                       <img src="/img/logo.png" alt="Logo" />
                     </Link>
                   </div>

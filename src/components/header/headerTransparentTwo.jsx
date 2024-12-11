@@ -74,7 +74,7 @@ const HeaderTransparentTwo = function ({ SetToggleClassName, topbar }) {
               <Col>
                 <div className="site-logo-wrap">
                   <div className="site-logo">
-                    <Link href="/">
+                    <Link href="/home/page-three">
                       <img src="/img/logo-2.png" alt="Logo" />
                     </Link>
                   </div>

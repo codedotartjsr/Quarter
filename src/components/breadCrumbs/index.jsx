@@ -17,7 +17,7 @@ const BreadCrumb = ({ title, currentSlug, sectionPace }) => {
                 <div className="ltn__breadcrumb-list">
                   <ul>
                     <li>
-                      <Link href="/">
+                      <Link href="/home/page-three">
                         <span className="ltn__secondary-color">
                           <FaHome className="me-2" />
                         </span>

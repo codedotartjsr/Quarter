@@ -28,7 +28,7 @@ const comingSoon = () => {
                     have been moved or deleted.
                   </p>
                   <div className="btn-wrapper">
-                    <Link href="/" className="btn btn-transparent">
+                    <Link href="/home/page-three" className="btn btn-transparent">
                       {" "}
                       <span>
                         <FaLongArrowAltLeft />

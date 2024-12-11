@@ -62,7 +62,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
         <div className="ltn__utilize-menu-inner ltn__scrollbar">
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
-              <Link href="/">
+              <Link href="/home/page-three">
                 <img src="/img/logo.png" alt="Logo" />
               </Link>
             </div>
@@ -81,50 +81,50 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu">
             <ul>
               <li>
-                <Link href="/home/page-three">Homesgzdhtghxgh</Link>
-                <span
+                <Link href="/home/page-three">Home</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
-                <ul className="sub-menu">
+                ></span> */}
+                {/* <ul className="sub-menu">
                   <li>
-                    <Link href="/home">Home Style 01</Link>
+                    <Link href="/home/page-three">Home Style 01</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-two">Home Style 02</Link>
+                    <Link href="/home/page-three">Home Style 02</Link>
                   </li>
                   <li>
                     <Link href="/home/page-three">Home Style 03</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-four">Home Style 04</Link>
+                    <Link href="/home/page-three">Home Style 04</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-five">Home Style 05</Link>
+                    <Link href="/home/page-three">Home Style 05</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-six">Home Style 06</Link>
+                    <Link href="/home/page-three">Home Style 06</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-seven">Home Style 07</Link>
+                    <Link href="/home/page-three">Home Style 07</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-eight">Home Style 08</Link>
+                    <Link href="/home/page-three">Home Style 08</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-nine">Home Style 09</Link>
+                    <Link href="/home/page-three">Home Style 09</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-ten">Home Style 10</Link>
+                    <Link href="/home/page-three">Home Style 10</Link>
                   </li>
                   <li>
-                    <Link href="/home/page-eleven">Home Style 11</Link>
+                    <Link href="/home/page-three">Home Style 11</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">About</Link>
+                <Link href="/about">About</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
@@ -138,11 +138,11 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                     <Link href="/service">Services</Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link href="/portfolio">Portfolio</Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link href="/portfolio/page-two">Portfolio - 02</Link>
+                    <Link href="/portfolio">Portfolio </Link>
                   </li>
 
                   <li>
@@ -158,27 +158,27 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 </ul>
               </li>
               <li>
-                <Link href="#">Property</Link>
-                <span
+                <Link href="/shop">Property</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
-                <ul className="sub-menu">
+                ></span> */}
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/shop">Property</Link>
                   </li>
                   <li>
-                    <Link href="/shop/grid">Property Grid</Link>
+                    <Link href="/shop">Property Grid</Link>
                   </li>
                   <li>
-                    <Link href="/shop/list">Property List</Link>
+                    <Link href="/shop">Property List</Link>
                   </li>
                   <li>
-                    <Link href="/shop/left-sidebar">Property Left sidebar</Link>
+                    <Link href="/shop">Property Left sidebar</Link>
                   </li>
                   <li>
-                    <Link href="/shop/right-sidebar">
+                    <Link href="/shop">
                       Property right sidebar
                     </Link>
                   </li>
@@ -204,16 +204,16 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/register">Register</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">News</Link>
-                <span
+                <Link href="/blog/grid">News</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
-                <ul className="sub-menu">
+                ></span> */}
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/blog">News</Link>
                   </li>
@@ -226,9 +226,9 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/blog/right-sidebar">News Right sidebar</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">Pages</Link>
                 <span
                   className="menu-expand"
@@ -276,7 +276,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                     <Link href="/coming-soon">Coming Soon</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">Contact</Link>
               </li>

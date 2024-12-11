@@ -149,7 +149,7 @@ function CarDealerSearchFormTwo() {
 
                             <div className="btn-wrapper text-center">
                               <Link
-                                href="/shop/left-sidebar"
+                                href="/shop"
                                 className="btn theme-btn-1 btn-effect-1 text-uppercase"
                               >
                                 Search Inventory
@@ -272,7 +272,7 @@ function CarDealerSearchFormTwo() {
 
                             <div className="btn-wrapper text-center">
                               <Link
-                                href="/shop/left-sidebar"
+                                href="/shop"
                                 className="btn theme-btn-1 btn-effect-1 text-uppercase"
                               >
                                 Search Inventory
